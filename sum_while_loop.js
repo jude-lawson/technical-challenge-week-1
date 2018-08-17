@@ -1,9 +1,11 @@
-var given = [1, 2, 3, 4, 5]
+given = [1, 2, 3, 4, 5]
 
 const sum = values => {
-  let total = 0
-  for(var i = 0; i < values.length; i++) {
+  let i = 0;
+  let total = 0;
+  while(i < values.length) {
     total += values[i];
+    i++;
   }
   console.log(total);
   return total;
