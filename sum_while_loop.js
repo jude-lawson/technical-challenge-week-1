@@ -7,7 +7,7 @@ const sum = values => {
     total += values[i];
     i++;
   }
-  console.log(total);
+  console.log(`The sum is: ${total}`);
   return total;
 }
 

@@ -5,7 +5,7 @@ const sum = (values, current_index = 0, total = 0) => {
   if (current_index < values.length - 1) {
     sum(values, current_index + 1, total)
   } else {
-    console.log(total);
+    console.log(`The sum is: ${total}`);
     return total;
   }
 }

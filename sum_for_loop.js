@@ -5,7 +5,7 @@ const sum = values => {
   for(var i = 0; i < values.length; i++) {
     total += values[i];
   }
-  console.log(total);
+  console.log(`The sum is: ${total}`);
   return total;
 }
 
